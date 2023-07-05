@@ -12,7 +12,7 @@ export class AuthService {
     private router: Router) { }
 
 //login mtd
-    login(email: string, password: string){
+    login(email: "akashks6341@gmail.com", password: "Pass1234#"){
       this.fireauth.signInWithEmailAndPassword(email,password).then(()=> {
         localStorage.setItem("token","true");
         this.router.navigate(['/Dashboard']);

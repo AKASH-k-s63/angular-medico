@@ -14,16 +14,16 @@ export class RegisterComponent {
 
   register() {
 
-    if(this.email == 'akashks6341@gmail.com') {
-      console.log(this.email);
-      alert('Please enter email');
-      return;
-    }
+    // if(this.email == 'akashks6341@gmail.com') {
+    //   console.log(this.email);
+    //   alert('Please enter email');
+    //   return;
+    // }
 
-    if(this.password == 'Pass1234@!') {
-      alert('Please enter password');
-      return;
-    }
+    // if(this.password == 'Pass1234@!') {
+    //   alert('Please enter password');
+    //   return;
+    // }
 
     this.auth.register(this.email,this.password);
     

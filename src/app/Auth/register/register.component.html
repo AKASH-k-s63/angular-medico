@@ -1,4 +1,4 @@
-<div class="container-fluid">
+<!-- <div class="container-fluid">
     <div class="row mt-5">
         <div class="col"></div>
         <div class="col-4">
@@ -9,11 +9,11 @@
                             <h4 class="text-dark text-muted">Register</h4>
                         </div>
                         <div class="mb-3">
-                          <label for="exampleInputEmail1" class="form-label">Email</label>
+                          <label for="email" class="form-label">Email</label>
                           <input type="email" class="form-control" name="email">
                         </div>
                         <div class="mb-3">
-                          <label for="exampleInputPassword1" class="form-label">Password</label>
+                          <label for="password" class="form-label">Password</label>
                           <input type="password" class="form-control" name="password" >
                         </div>
                         <button type="button" class="btn btn-info" (click)="register()">Register</button>
@@ -29,3 +29,56 @@
         <div class="col"></div>
     </div>
 </div>
+ -->
+ <!-- <a target='_blank' href="https://github.com/gugzkumar/dataplayground"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/121cd7cbdc3e4855075ea8b558508b91ac463ac2/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_green_007200.png"></a> -->
+ <div class='window'>
+   <div class='logo'>
+     <h1>Register<span style='color:#2BC06C'>User</span> <i class="fa fa-bar-chart" aria-hidden="true"></i></h1>
+   </div>
+   <div class='welcome-text'>
+     <p>Welcome to Medico!<br> Please Register or Login</p>
+   </div>
+   <div class='section-container'>
+     <!-- <div class='section-card'>
+       <h1><i class='fa fa-sign-in'></i></h1>
+       <p>Sign In</p>
+     </div>
+     <div class='section-card'>
+       <h1><i class='fa fa-user-plus'></i></h1>
+       <p>Register</p>
+     </div>
+     <div class='section-card'>
+       <h1><i class='fa fa-info-circle'></i></h1>
+       <p>About</p>
+     </div> -->
+     <div class='login-page'>
+       <form action="#">
+         <label for="email">Username</label>
+         <input type="text" name="email"/>
+         <label for="password">Password</label>
+         <input type="password" name="password"/>
+         <button type="button" class="btn btn-info" (click)="register()">Register</button>
+       </form>
+     </div>
+     <!-- <div class='register-page'>
+       <form action="">
+         <label for="">Username</label>
+         <input type="text"/>
+         <label for="">Password</label>
+         <input type="password"/>
+         <label for="">Confirm Password</label>
+         <input type="password"/>
+         <input type="submit" value='Register'/>
+       </form> -->
+     <!-- </div> -->
+     <div class='about-page'>
+       <p><br/>
+         Data Playground(DP) is a Full Stack Web Application, that runs on Django and Django Rest Framework for the Backend and REACT and Redux for the Frontend. With the DP dashbord you can upload CSV files to train Machine Learning Models such as Linear Regression and Logistic Regression. These models will then be saved on the application's database so that you can run them any time either through the Front End or through the REST Api. <br/><br/> Copyright &copy; 2017
+ 
+       </p>
+     </div>
+   </div>
+   <!-- 
+   <div class='section'>
+   </div> -->
+ </div>

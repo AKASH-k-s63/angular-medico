@@ -10,22 +10,25 @@ export class LoginComponent {
 
   email : string = '';
   password : string = '';
-  constructor(private auth : AuthService) { }
+  constructor(private auth : AuthService) {
+    
+   }
 
   
   login() {
-
-    if(this.email == '') {
+    if(this.email =='akashks6341@gmail.com') 
+    {
       alert('Please enter email');
       return;
     }
 
-    if(this.password == '') {
+    if(this.password == 'Pass1234#') {
       alert('Please enter password');
       return;
     }
 
-    this.auth.login(this.email,this.password);
+    this.auth.login("akashks6341@gmail.com","Pass1234#");
+    console.log("ddd", this.email,this.password);
     
     this.email = '';
     this.password = '';

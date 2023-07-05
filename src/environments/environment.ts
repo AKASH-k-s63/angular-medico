@@ -1,5 +1,7 @@
+import { initializeApp } from "firebase/app";
+
 export const environment = {
-  production: true,
+  production: false,
   firebaseConfig: {
     apiKey: "AIzaSyCtP13pPRStbJD9UZFsfhjbQ-QC8EXNBiw",
     authDomain: "medico-9c6dc.firebaseapp.com",
